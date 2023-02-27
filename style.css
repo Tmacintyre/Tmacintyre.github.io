@@ -1,0 +1,43 @@
+button{
+    background-image: url("sandpile.png");
+    background-size: contain;
+    width: 150px;
+    height: 75px; 
+  }
+  
+  #reset{
+      background-color: green;
+      background-image: none;
+  }
+  
+  body{
+      background-image: linear-gradient(to right top, #d2b48c, #dfb97c, #eabf6a, #f3c557, #f9cc40, #fbc430, #fdbc1e, #ffb300, #ff9700, #ff7700, #ff5100, #ff0000);
+  }
+  
+  table{
+      border-color: rgb(165, 177, 0);
+      border-style: ridge;
+  }
+  
+  .treasure-image {
+      width: 150px;
+      height: 75px;
+    }
+  
+  .bomb-image {
+      width: 100px;
+      height: 75px;
+  }
+  
+  .clicks {
+      justify-content: center;
+      position: absolute; 
+      bottom: 30%; 
+      left: 9%;
+  }
+  
+  .counter {
+      position: absolute; 
+      bottom: 30%; 
+      right: 15%;
+  }

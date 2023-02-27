@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt</title>
+    <link rel="icon" type="image/icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzc6Mai56RRkLlQjSRDJX9OfZeMJC-w4VUkA&usqp=CAU">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body align="center">
+    <h1>Samurai Treasure Hunt</h1>
+    <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ60pof8YOgrEzHA_92kfzbYLE8M8xVpHmu0g&usqp=CAU": alt="Picture of samurai">
+    
+        <h2>Game Rules</h2>
+        <li>Click on the boxes to reveal what is on the map</li>
+        <li>If you click on 3 bombs you lose</li>
+        <li>Collect more then 6 treasures you win</li>
+
+    <table border="10" width="50%" height="400" align="center" style="text-align:center">
+        <tr>
+            <td><button onclick="treasure(this)">?</button></td>
+            <td><button onclick="treasure(this)">?</button></td>
+            <td><button onclick="treasure(this)">?</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="treasure(this)">?</button></td>
+            <td><button onclick="treasure(this)">?</button></td>
+            <td><button onclick="treasure(this)">?</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="treasure(this)">?</button></td>
+            <td><button onclick="treasure(this)">?</button></td>
+            <td><button onclick="treasure(this)">?</button></td>
+        </tr>        
+    </table>
+    <br>
+    <button id="reset" onclick="location.reload()">Reset Game</button> 
+
+<div class="counter">           
+    <ul>
+        Number of treasure piles: 0
+    </ul>    
+    <ul>
+        Number of bombs: 0 
+    </ul>
+</div>
+    <footer>
+        <p>
+            &copy; Jacob & Tucker | <a href="https://www.google.com" target="_blank">Google</a>
+        </p>
+    </footer>
+    
+    <script type="text/javascript" src="treasurehunt.js"></script>
+
+</body>
+</html>
